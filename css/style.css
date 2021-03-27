@@ -14,6 +14,7 @@
   #logo h1{
     font-family: 'Tangerine', cursive;
   font-family: 'Yellowtail', cursive;
+  font-size: 30px;
   }
   #logo span{
     float:left;
@@ -98,15 +99,35 @@
   }
   footer{
     width: clac(100%/2);
-  float: left;
+  /* float: left; */
   margin-bottom: 35px;
+  align-content: center;
+  text-align: center;
   }
   footer span{
     font-size: 20px;
     color: grey;
+  }
+  footer img {
+    align-content: center;
   }
   
   .vanessa{
     align-content: center;
     display: inline-block;
   } 
+  .van {
+    float: left;
+  }
+  .span{
+    float:left;
+    /* padding-left: 70px; */
+    padding-bottom: 40px;
+  }
+  .last{
+    padding-top: 20px;
+    float: left;
+    padding-right: 250px;
+    padding-bottom: 40px;
+  }
+  
